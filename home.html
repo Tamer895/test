@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css?v=2">
+    <script src="js/jquery.min.js"></script>
+    <style>
+    .custom-back-color, .btn-primary {
+        background: #115e9b !important;
+        background-color: #115e9b !important;
+        border-color: #115e9b !important;
+    }
+
+    .custom-border-color {
+        border-color: #115e9b !important;
+    }
+
+    .custom-back-color a {
+        color: #ffffff !important;
+    }
+
+    .custom-back-color-light {
+        background: #317ebb !important;
+        background-color: #317ebb !important;
+    }
+
+    .custom-color, h1, h2, .job-details-link, .results-job-title, .main_category_link {
+        color: #115e9b !important;
+    }
+
+    .custom-color-light {
+        color: #317ebb !important;
+    }
+
+    .custom-gradient {
+        background-color: #115e9b !important;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#115e9b), to(#317ebb)) !important;
+        background-image: -webkit-linear-gradient(top, #115e9b, #317ebb) !important;
+        background-image: -moz-linear-gradient(top, #115e9b, #317ebb) !important;
+        background-image: -ms-linear-gradient(top, #115e9b, #317ebb) !important;
+        background-image: -o-linear-gradient(top, #115e9b, #317ebb) !important;
+        filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#115e9b, endColorstr=#317ebb) !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#115e9b, endColorstr=#317ebb)" !important;
+    }
+
+    input[type="submit"].custom-gradient {
+        color: #ffffff !important;
+    }
+
+    .custom-gradient-2 {
+        background-color: #ebebeb !important;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fbfbfb), to(#ebebeb)) !important;
+        background-image: -webkit-linear-gradient(top, #fbfbfb, #ebebeb) !important;
+        background-image: -moz-linear-gradient(top, #fbfbfb, #ebebeb) !important;
+        background-image: -ms-linear-gradient(top, #fbfbfb, #ebebeb) !important;
+        background-image: -o-linear-gradient(top, #fbfbfb, #ebebeb) !important;
+        filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#fbfbfb, endColorstr=#ebebeb) !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#fbfbfb, endColorstr=#ebebeb)" !important;
+        color: #000000 !important;
+        background-color: #ffffff !important;
+        border-color: #cccccc !important;
+    }
+    </style>
+</head>
+<body>
+    <div class="top-head-line">
+        <div class="container">
+            <div class="col-md-6 text-left">
+                <a class="top-link" href="https://www.phpscriptdemos.com/cars" class="top-right-button-active"> Cars</a>
+                <a class="top-link" href="type-motorcycles-2.html" class="top-right-button"> Motorcycles</a>
+                <a class="top-link" href="type-trucks-3.html" class="top-right-button"> Trucks</a>
+            </div>
+            <div class="col-md-6 text-right">
+                <img src="images/icon-saved.png" alt="" width="12" height="12"/>
+                <a class="top-link" href="mod-saved.html">Saved Listings</a>
+                <a class="top-right-link" href="mod-registration.html">Register</a>
+                <a class="top-right-link" href="javascript:ShowLogin()">Log In</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="xrow">
+            <div class="logo-container-line">
+                <div class="col-xs-6">
+                    <div class="logo">
+                        <a class="text-logo" href="https://www.phpscriptdemos.com/cars">Demo Site</a>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <a href="mod-new_listing.html" class="btn btn-primary btn-md white-font pull-right hide-sm">Add New Listing</a>
+                    <a href="javascript:ShowHide('nav_menu')" class="navbar-toggle collapsed">
+                        <img src="images/menu-grid.gif" class="pull-right" alt="expand menu"/>
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div id="nav_menu" style="width:100%;" class="navbar-collapse collapse no-left-padding">
+                <ul class="nav navbar-nav main-navigation-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.phpscriptdemos.com/cars">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="en_Latest+Listings.html">Latest Listings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="en_Dealers.html">Dealers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="en_News.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="en_Reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="en_Email+Alerts.html">Email Alerts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="en_FAQ.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="en_Contact.html">Contact</a>
+                    </li>
+                    <li class="hide-md">
+                        <a href="index.php?mod=new_listing">Add New Listing</a>
+                    </li>
+                </ul>
+                <div class="pull-right no-float-sm">
+                    <ul class="nav navbar-nav main-navigation-menu"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="slider_section" class="custom-gradient">
+        <div data-height="" data-min-height="600px" class="swiper-container swiper-slider">
+            <div class="swiper-wrapper">
+                <div data-slide-bg="uploaded_images/94195569.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">Welcome to our website ...</p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">
+                                Find your dream car or sell easily your car by listing it on our website. 
+                                <br/>
+                                This is a text you can customize from the admin panel, create sliders, mix the slides with latest or featured listings or other content you wish to have ...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div data-slide-bg="uploaded_images/CC3759958BR92520157.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">2015 Bmw 320 </p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">This is a test car</p>
+                            <div data-caption-animate="fadeInUp" data-caption-delay="500" class="price">$21,900</div>
+                            <a href="listing-bmw-54.html" data-caption-animate="fadeInUp" data-caption-delay="500" class="btn btn-md btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-slide-bg="uploaded_images/RO9134092BA65936348.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">2012 Bmw Z4 Exclusive</p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">BMW Z4 in excellent condition and with a full service record. It is the first Z Series model to use a retractable hardtop and meant that there were no longer ...</p>
+                            <div data-caption-animate="fadeInUp" data-caption-delay="500" class="price">$19,500</div>
+                            <a href="listing-bmw-z-exclusive-55.html" data-caption-animate="fadeInUp" data-caption-delay="500" class="btn btn-md btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-slide-bg="uploaded_images/TE5410955OF26605371.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">2011 Bmw M3 </p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">BMW M3 in top condition, full service history and only one previous owner. The BMW M3 is a high-performance version of the 3 Series, developed by BMW's in-house motorsport division, ...</p>
+                            <div data-caption-animate="fadeInUp" data-caption-delay="500" class="price">$32,000</div>
+                            <a href="listing-bmw-m-56.html" data-caption-animate="fadeInUp" data-caption-delay="500" class="btn btn-md btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-slide-bg="uploaded_images/CE30102679OZ79769938.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">2017 Mercedes Cls63 AMG Performance</p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">The Mercedes-Benz CLS-Class is a series of mid-size luxury cars produced by Mercedes-Benz.
+                            The C257 CLS is the third and current generation model, and is only available as a 4-door ...</p>
+                            <div data-caption-animate="fadeInUp" data-caption-delay="500" class="price">$62,000</div>
+                            <a href="listing-mercedes-cls-amg-performance-57.html" data-caption-animate="fadeInUp" data-caption-delay="500" class="btn btn-md btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-slide-bg="uploaded_images/NA87243678ZV59289632.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">2011 Mercedes C220 </p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">The new family of the C Class Coupe has an extended wheelbase and tracks, a stiffer bodyshell and a design inspired by the W221 S-Class with some influences from the ...</p>
+                            <div data-caption-animate="fadeInUp" data-caption-delay="500" class="price">$19,800</div>
+                            <a href="listing-mercedes-c-58.html" data-caption-animate="fadeInUp" data-caption-delay="500" class="btn btn-md btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-slide-bg="uploaded_images/CO22894441AF94244397.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">2014 Mercedes GLA 220 CDI</p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">An SUV with a Style All Its Own. The GLA family encompasses both the candid SUV design and Mercedes-Benz's emblematic sophistication. From its chrome crosswinged grille, to its aerodynamic side ...</p>
+                            <div data-caption-animate="fadeInUp" data-caption-delay="500" class="price">$25,900</div>
+                            <a href="listing-mercedes-gla-cdi-59.html" data-caption-animate="fadeInUp" data-caption-delay="500" class="btn btn-md btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-slide-bg="uploaded_images/AN91107196BC97708135.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">2018 Mercedes A180 </p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">The W177 Mercedes-Benz A-Class is the fourth and current generation of the A-Class range of subcompact executive hatchbacks. It was launched in 2018 as the successor to the W176 Mercedes-Benz ...</p>
+                            <div data-caption-animate="fadeInUp" data-caption-delay="500" class="price">$33,800</div>
+                            <a href="listing-mercedes-a-60.html" data-caption-animate="fadeInUp" data-caption-delay="500" class="btn btn-md btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-slide-bg="uploaded_images/CT54995818AX57479944.webp" class="swiper-slide">
+                    <div class="swiper-slide-caption">
+                        <div class="container">
+                            <p data-caption-animate="fadeInDown" class="h1">2018 Mercedes E280 S Line</p>
+                            <p data-caption-animate="fadeInUp" data-caption-delay="500" class="h5">The fifth generation E-Class was unveiled at the 2016 North American International Auto Show. The next generation E-Class has design cues from the larger W222 S-Class and the smaller W205 ...</p>
+                            <div data-caption-animate="fadeInUp" data-caption-delay="500" class="price">$39,000</div>
+                            <a href="listing-mercedes-e-s-line-61.html" data-caption-animate="fadeInUp" data-caption-delay="500" class="btn btn-md btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <script>
+    var animation_speed = 5000;
+    </script>
+    <section class="section-sm section-sm-mod-1 bg-dark">
+        <div class="container position-margin-top">
+            <div class="search-form-wrap bg-white container-shadow">
+                <h3 class="no-margin"> Find Cars for Sale </h3>
+                <script language="javascript">
+                makes = new Array();
+                models = new Array();
+                models['Acura'] = 'Integra,Mdx,Rl,Rsx,Slx,Tl,Tsx';
+                models['Aixam'] = '400,505,600';
+                models['Alfa romeo'] = '145,146,147,155,156,156 sportwagon,159,164,166,33,75,76,90,Alfetta,Brera,Crosswagon q4,Giulietta,Gt,Gtv,MiTo,Spider,Sprint,Sud';
+                models['Aston martin'] = 'DBS,Db7,Db9,Rapide,V12 Vantage,V8 Vantage,Vanquish';
+                models['Audi'] = '100,200,50,60,80,90,A1,A2,A3,A4,A5,A6,A7,A8,Allroad,R8,Rs4,Rs5,Rs6,S2,S3,S4,S5,S6,S8,Tt';
+                models['Austin'] = 'Allegro,Ambassador,Maestro,Maxi,Metro,Mg,Mini,Montego,Princess';
+                models['Bentley'] = 'Arnage,Azure,Continental,Continental gt,Mulsanne';
+                models['Berliner'] = 'Coupe';
+                models['Bmw'] = '116,118,120,130,1500,1600,1602,1800,2000,2002,3,315,316,318,320,323,324,325,328,330,335,5,5 Gran Turismo,501,518,520,523,524,525,528,530,535,540,545,550,5GT,6,628,630,633,635,640,645,650,700,721,723,725,728,730,732,733,735,740,745,750,760,840,850,Izetta,M3,M5,M6,Z1,Z3,Z4,Z8';
+                models['Borgward'] = 'Hansa';
+                models['Bugatti'] = 'Veyron';
+                models['Buick'] = 'Electra,Invicta,Park avenue,Regal,Skylark,Skyline';
+                models['Cadillac'] = 'Allante,BLS,Brougham,Cts,Deville,Eldorado,Fleetwood,STS,Seville,Srx,Xlr';
+                models['Chevrolet'] = 'Alero,Astro,Aveo,Beretta,Camaro,Caprice,Cavalier,Cobalt,Corvette,Cruze,Epica,Evanda,Hhr,Impala,Kalos,Lacetti,Lumina,Malibu,Matiz,Nova,Nubira,Orlando,Silverado,Spark,Ssr,Tacuma,Transsport';
+                models['Chrysler'] = '300c,300m,Crossfire,Daytona,Es,Gr.voyager,Gts,Interpid,Lebaron,Neon,New yorker,Pacifica,Pt cruiser,Saratoga,Sebring,Stratus,Vision,Voyager';
+                models['Citroen'] = '2cv,Ax,Axel,Berlingo,Bx,C1,C15,C2,C3,C3 Picasso,C3 pluriel,C4,C4 Picasso,C5,C6,C8,Cx,DS3,DS4,DS5,Evasion,Gsa,Gx,Ln,Nemo,Oltcit,Saxo,Visa,Xantia,Xm,Xsara,Xsara picasso,Zx';
+                models['Dacia'] = '1100,1300,1304,1307,1310,1350,Liberta,Logan,Nova,Pickup,Sandero,Solenza';
+                models['Daewoo'] = 'Ace,Chairman,Cielo,Espero,Evanda,Fso,Kalos,Lacetti,Lanos,Leganza,Magnus,Matiz,Nexia,Nubira,Prince,Racer,Rezzo,Super,Tacuma,Tico';
+                models['Daihatsu'] = 'Applause,Charade,Charmant,Copen,Cuore,Gran move,Hijet,Materia,Move,Sharade,Sirion,Yrv';
+                models['Daimler'] = 'Double six,Six,Sovereign';
+                models['Datsun'] = 'Bluebird,Cherry,Stanza';
+                models['Dkw'] = 'F102';
+                models['Dodge'] = 'Avenger,Caliber,Caravan,Challenger,Charger,Coronet,Daytona,Interpid,Journey,Magnum,Neon,Ram,Shadow,Stealth,Stratus,Viper';
+                models['Eagle'] = 'Premire,Talon,Vision';
+                models['FSO'] = 'Polonez';
+                models['Ferrari'] = '348,360 modena,360 spider,458 Italia,599,California,Enzo,F430,F456m,F575m maranello,F612 scaglietti,FF,Mondial 8,Testarossa';
+                models['Fiat'] = '1100,124,125,126,127,128,131,132,1400,1500,1800,500,600,650,750,Albea,Argenta,Barchetta,Bertone,Brava,Bravo,Cinquecento,Coupe,Croma,Doblo,Duna,Fiorino,Idea,Linea,Marea,Multipla,Palio,Panda,Punto,Regata,Ritmo,Scudo,Sedici,Seicento,Siena,Stilo,Strada,Tempra,Tipo,Topolino,Ulysse,Uno';
+                models['Ford'] = '12m,15m,17m,20m,Aerostar,C-max,Capri,Connect,Consul,Cortina,Cosworth,Cougar,Countur,Courier,Crown victoria,Ecoline,Escort,F150,Fiesta,Focus,Focus c max,Fusion,Galaxy,Granada,Ka,Mondeo,Mustang,Orion,Probe,Puma,Rs,S-Max,Scorpio,Sierra,Sportka,Streetka,Taunus,Taurus,Thunderbird,Windstar,Zephyr';
+                models['Geo'] = 'Metro,Prizm,Storm';
+                models['Great Wall'] = 'Voleex C10';
+                models['Honda'] = 'Accord,Cbr,Cbx,City,Civic,Civic ballade,Concerto,Cr-v,Crx,Crz,Fit,Fr-v,Hr-v,Insight,Integra,Jazz,Legend,Logo,Nsx,Odyssey,Prelude,Quintet,S2000,Shuttle,Stream';
+                models['Hyundai'] = 'Accent,Atos,Coupe,Elantra,Excel,Genesis,Getz,Grace,Grandeur,I10,I20,I30,I40,Ix20,Lantra,Matrix,Pony,Porter,S,Santamo,Sonata,Stelar,Tb,Trajet,Xg';
+                models['Ifa'] = 'F9';
+                models['Infiniti'] = 'Fx45,G,G coupe,G sedan,I,J,M,Q';
+                models['Innocenti'] = 'Mini';
+                models['Isuzu'] = 'Gemini,Piazza,Pickup';
+                models['Jaguar'] = 'Daimler,Daimler double six,Daimler six,S-type,Sovereign,Super v8,X-type,Xf,Xj,Xjr,Xjs,Xjsc,Xk8,Xkr';
+                models['Kia'] = 'Avella delta,Carens,Carnival,Ceed,Cerato,Clarus,Joecs,Joyce,Magentis,Opirus,Picanto,Pride,Rio,Sephia,Shuma,Soul,Venga';
+                models['Lada'] = '1200,1300,1500,1600,2101,21011,21012,21013,21015,2102,2103,2104,21043,2105,21051,21053,2106,21061,21063,2107,21074,2108,21083,2109,21093,21099,2110,21213,Kalina,Nova,Oka,Priora,Samara';
+                models['Lamborghini'] = 'Countach,Diablo,Gallardo,Murcielago,Reventon';
+                models['Lancia'] = 'A112,Aurelia,Beta,Dedra,Delta,Kappa,Lybra,Musa,Phedra,Prisma,Thema,Thesis,Unior,Y,Y10,Ypsilon,Zeta';
+                models['Lexus'] = 'CT200h,Es,Gs,Is,Ls,Sc';
+                models['Lincoln'] = 'Continental,Ls,Mark,Mkz,Town car,Zephyr';
+                models['Lotus'] = 'Elise,Europe,Evora,Exige';
+                models['Maserati'] = '3200 gt,Biturbo,Coupe gt,Ghibli,GranCabrio,GranTurismo,Gransport,Quattroporte,Spyder,Zagato';
+                models['Matra'] = 'Murena,Rancho';
+                models['Maybach'] = '57,62';
+                models['Mazda'] = '121,2,3,323,5,6,626,929,Demio,Mpv,Mx-3,Mx-5,Mx-6,Premacy,Rx-7,Rx-8,Tribute,Xedos';
+                models['Mercedes'] = '110,111,113,114,115,116,123,124,126,126-260,150,170,180,190,200,220,230,240,250,260,280,290,300,320,350,380,380se,420,450,500,560,600,A140,A150,A160,A170,A180,A190,A200,A210,Adenauer,B,B150,B170,B180,B200,C180,C200,C220,C230,C240,C250,C270,C280,C30 AMG,C32 AMG,C320,C350,C55 AMG,Cl,Cl55 AMG,Cl63 AMG,Cl65 AMG,Clk,Clk55 AMG,Clk63 AMG,Cls320,Cls350,Cls500,Cls55,Cls55 AMG,Cls63,Cls63 AMG,E200,E220,E230,E240,E250,E260,E270,E280,E290,E300,E320,E350,E36 AMG,E400,E420,E50 AMG,E500,E55,E55 AMG,E60,E60 AMG,E63 AMG,GL,GLA,GLK,R,R280,R300,R320,R350,R500,R63 AMG,S250,S280,S300,S320,S350,S400,S420,S450,S500,S55 AMG,S550,S600,S63,S63 AMG,S65,S65 AMG,SLR,SLS,Sl,Sl55 AMG,Sl60 AMG,Sl63 AMG,Sl65 AMG,Slk,Slk32 AMG,Slk55 AMG,Sls AMG,Smart,V230,Vaneo,?63';
+                models['Mercury'] = 'Marauder,Milan,Monarch,Villager';
+                models['Mg'] = 'Mga,Mgb,Mgf,Tf,Zr,Zs,Zt,Zt-t';
+                models['Mini'] = 'Clubman,Cooper,Cooper cabrio,Cooper s,Cooper s cabrio,D one,One,One cabrio';
+                models['Mitsubishi'] = '3000 gt,Carisma,Colt,Cordia,Eclipse,Galant,Grandis,Lancer,Sapporo,Sigma,Space gear,Space runner,Space star,Space wagon,Starion,Tredia';
+                models['Morgan'] = 'Aero8';
+                models['Nissan'] = '100 nx,200 sx,240 z,280 z,300 zx,350z,370Z,Almera,Almera tino,Altima,Bluebird,Cedric,Cherry,Gt-r,Laurel,Maxima,Micra,Note,Pickup,Pixo,Prairie,Primera,Serena,Silvia,Skyline,Stantza,Sunny,Tiida,Versa';
+                models['Oldsmobile'] = 'Achieva,Alero,Aurora,Bravada,Cutlass,Firenza,Intrigue,Regency,Silhouette,Toronado';
+                models['Opel'] = 'Admiral,Agila,Ascona,Astra,Calibra,Combo,Commodore,Corsa,Diplomat,Gt,Insignia,Kadett,Kapitaen,Manta,Meriva,Monza,Omega,Rekord,Senator,Signum,Sintra,Speedster,Tigra,Vectra,Zafira';
+                models['Perodua'] = 'Kancil,Kelisa,Kembara,Kenari,Nippa,Rusa';
+                models['Peugeot'] = '1007,104,106,107,202,204,205,206,207,208,3008,304,305,306,307,308,309,402,403,404,405,406,407,5008,504,505,508,604,605,607,806,807,Bipper,Partner,RCZ,Range';
+                models['Pgo'] = 'Cevennes,Speedster';
+                models['Plymouth'] = 'Acclaim,Barracuda,Breeze,Colt,Grand voyager,Horizon,Laser,Neon,Prowler,Reliant,Road runner,Sundance,Volare,Voyager';
+                models['Polonez'] = 'Pickup';
+                models['Pontiac'] = 'Aztec,Bonneville,Fiero,Firebird,Grand am,Grand prix,Gto,Lemans,Solstice,Sunbird,Sunfire,Tempest,Trans am,Trans sport,Vibe';
+                models['Porsche'] = '911,924,928,935,944,956,968,993,996,Boxster,Carrera,Cayman,Panamera';
+                models['Proton'] = '400,Persone,Satria';
+                models['Renault'] = '10,11,12,14,16,18,19,20,21,25,29,30,4,5,8,9,Alpine,Avantime,Bakara,Bulgar,Chamade,Clio,Espace,Express,Fluence,Fuego,Grand espace,Grand scenic,Kangoo,Koleos,Laguna,Laguna Coupe,Latitude,Megane,Modus,Nevada,Rapid,Safrane,Scenic,Symbol,Twingo,Vel satis';
+                models['Rolls-Royce'] = 'Ghost,Phantom,Silver Seraph';
+                models['Rover'] = '111,114,200,213,214,216,220,25,400,414,416,418,420,45,600,618,620,623,75,800,820,825,827,City,Estate,Maestro,Metro,Mini,Montego,Streetwise';
+                models['Saab'] = '9-3,9-5,900,9000';
+                models['Samand'] = 'LX';
+                models['Saturn'] = 'Astra,Aura,Sky';
+                models['Scion'] = 'Tc,Xa,Xb';
+                models['Seat'] = 'Alhambra,Altea,Arosa,Cordoba,Exeo,Fura,Ibiza,Inka,Leon,Malaga,Marbella,Ronda,Terra,Toledo,Vario';
+                models['Shatenet'] = 'Stella';
+                models['Simca'] = '1307,1308,1309,1510,Aront,Chrysler,Horizon,Shambord,Solara,Special,Versail';
+                models['Skoda'] = '100,1000,105,120,125,130,135,136,Fabia,Favorit,Felicia,Forman,Octavia,Rapid,Roomster,Superb,Yeti';
+                models['Smart'] = 'Forfour,Fortwo,Mc,Roadster';
+                models['Ssang yong'] = 'Chairman,Rodius';
+                models['Subaru'] = '1800,Baja,E12,Forester,G3x justy,Impreza,Justy,Legacy,Libero,Outback,Svx';
+                models['Suzuki'] = 'Alto,Baleno,Forenza,Ignis,Liana,Maruti,Reno,SX4,Sg,Splash,Swift,Wagon r';
+                models['Talbot'] = '1100,1310,Horizon,Matra,Murena,Samba,Simka,Solara';
+                models['Tata'] = 'Aria,Estate,Indica,Mint,Nano';
+                models['Tavria'] = '.,Dana,Kombi,Slavuta';
+                models['Terberg'] = 'Fl2850,Sl3000';
+                models['Tesla'] = 'Model S,Roadster,Roadster Sport';
+                models['Tofas'] = 'Dogan,Kartal,Sahin';
+                models['Toyota'] = 'Auris,Avalon,Avensis,Avensis verso,Aygo,Camry,Carina,Celica,Corolla,Corolla verso,Cressida,Crown,IQ,Matrix,Mr2,Paseo,Picnic,Previa,Prius,Scion,Starlet,Supra,Tercel,Verso,Yaris,Yaris verso';
+                models['Trabant'] = '600,601,Combi,T 1.1';
+                models['Triumph'] = 'Acclaim,Dolomite,Herald,Spitfire,Stag,Tr6,Tr7';
+                models['Volga'] = '22,24,3110,3111,M 20,M 21,Siber';
+                models['Volvo'] = '142,144,145,164,1800 es,240,244,245,262 c,264,340,343,344,345,360,440,460,480,66,740,744,745,760,765,770,780,850,940,960,C30,C70,P 1800,S40,S60,S70,S80,V40,V50,V60,V70,Xc70';
+                models['Vw'] = '1200,1300,1302,1303,1500,1600,Bora,Caddy,Corrado,Derby,Eos,Fox,Golf,Jetta,K 70,Karmann-ghia,Lupo,Multivan,New beetle,Passat,Phaeton,Polo,Rabbit,Santana,Scirocco,Sharan,Taro,Touran,Vento';
+                models['Warszawa'] = '223,232';
+                models['Wartburg'] = '1.3,311,312,353';
+                models['Wiesmann'] = 'Gt,Mf3,Mf4,Mf5';
+                models['Xinshun'] = 'XS-D055';
+                models['Zastava'] = '600,750,Florida,Gt 55,Koral,Miami,Yugo 45';
+                function ChangeMake(x) {
+                    var strMake = x.options[x.selectedIndex].value;
+                    var CurrentModels = models[strMake].split(',');
+                    document.getElementById("car_model").options.length = 1;
+                    for (var i = 0; i < CurrentModels.length; i++) {
+                        document.getElementById("car_model").options[i + 1] = new Option(CurrentModels[i], CurrentModels[i], 0, 0);
+                    }
+                    document.getElementById("car_model").options[index_selected].selected = true;
+                }
+                </script>
+                <form class="form-variant-1" id="search-form" method="post" action="index.php">
+                    <input type="hidden" name="mod" value="search"/>
+                    <input type="hidden" name="search_type" value="search_form"/>
+                    <input type="hidden" name="type" value="1"/>
+                    <div class="form-group">
+                        <label for="p_type">Make</label>
+                        <select id="car_make" name="car_make" class="form-control" onChange="ChangeMake(this);">
+                            <option value="">Any</option>
+                            <option value="Acura">Acura</option>
+                            <option value="Aixam">Aixam</option>
+                            <option value="Alfa romeo">Alfa romeo</option>
+                            <option value="Aston martin">Aston martin</option>
+                            <option value="Audi">Audi</option>
+                            <option value="Austin">Austin</option>
+                            <option value="Bentley">Bentley</option>
+                            <option value="Berliner">Berliner</option>
+                            <option value="Bmw">Bmw</option>
+                            <option value="Borgward">Borgward</option>
+                            <option value="Bugatti">Bugatti</option>
+                            <option value="Buick">Buick</option>
+                            <option value="Cadillac">Cadillac</option>
+                            <option value="Chevrolet">Chevrolet</option>
+                            <option value="Chrysler">Chrysler</option>
+                            <option value="Citroen">Citroen</option>
+                            <option value="Dacia">Dacia</option>
+                            <option value="Daewoo">Daewoo</option>
+                            <option value="Daihatsu">Daihatsu</option>
+                            <option value="Daimler">Daimler</option>
+                            <option value="Datsun">Datsun</option>
+                            <option value="Dkw">Dkw</option>
+                            <option value="Dodge">Dodge</option>
+                            <option value="Eagle">Eagle</option>
+                            <option value="FSO">FSO</option>
+                            <option value="Ferrari">Ferrari</option>
+                            <option value="Fiat">Fiat</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Geo">Geo</option>
+                            <option value="Great Wall">Great Wall</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Hyundai">Hyundai</option>
+                            <option value="Ifa">Ifa</option>
+                            <option value="Infiniti">Infiniti</option>
+                            <option value="Innocenti">Innocenti</option>
+                            <option value="Isuzu">Isuzu</option>
+                            <option value="Jaguar">Jaguar</option>
+                            <option value="Kia">Kia</option>
+                            <option value="Lada">Lada</option>
+                            <option value="Lamborghini">Lamborghini</option>
+                            <option value="Lancia">Lancia</option>
+                            <option value="Lexus">Lexus</option>
+                            <option value="Lincoln">Lincoln</option>
+                            <option value="Lotus">Lotus</option>
+                            <option value="Maserati">Maserati</option>
+                            <option value="Matra">Matra</option>
+                            <option value="Maybach">Maybach</option>
+                            <option value="Mazda">Mazda</option>
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="Mercury">Mercury</option>
+                            <option value="Mg">Mg</option>
+                            <option value="Mini">Mini</option>
+                            <option value="Mitsubishi">Mitsubishi</option>
+                            <option value="Morgan">Morgan</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="Oldsmobile">Oldsmobile</option>
+                            <option value="Opel">Opel</option>
+                            <option value="Perodua">Perodua</option>
+                            <option value="Peugeot">Peugeot</option>
+                            <option value="Pgo">Pgo</option>
+                            <option value="Plymouth">Plymouth</option>
+                            <option value="Polonez">Polonez</option>
+                            <option value="Pontiac">Pontiac</option>
+                            <option value="Porsche">Porsche</option>
+                            <option value="Proton">Proton</option>
+                            <option value="Renault">Renault</option>
+                            <option value="Rolls-Royce">Rolls-Royce</option>
+                            <option value="Rover">Rover</option>
+                            <option value="Saab">Saab</option>
+                            <option value="Samand">Samand</option>
+                            <option value="Saturn">Saturn</option>
+                            <option value="Scion">Scion</option>
+                            <option value="Seat">Seat</option>
+                            <option value="Shatenet">Shatenet</option>
+                            <option value="Simca">Simca</option>
+                            <option value="Skoda">Skoda</option>
+                            <option value="Smart">Smart</option>
+                            <option value="Ssang yong">Ssang yong</option>
+                            <option value="Subaru">Subaru</option>
+                            <option value="Suzuki">Suzuki</option>
+                            <option value="Talbot">Talbot</option>
+                            <option value="Tata">Tata</option>
+                            <option value="Tavria">Tavria</option>
+                            <option value="Terberg">Terberg</option>
+                            <option value="Tesla">Tesla</option>
+                            <option value="Tofas">Tofas</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Trabant">Trabant</option>
+                            <option value="Triumph">Triumph</option>
+                            <option value="Volga">Volga</option>
+                            <option value="Volvo">Volvo</option>
+                            <option value="Vw">Vw</option>
+                            <option value="Warszawa">Warszawa</option>
+                            <option value="Wartburg">Wartburg</option>
+                            <option value="Wiesmann">Wiesmann</option>
+                            <option value="Xinshun">Xinshun</option>
+                            <option value="Zastava">Zastava</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="car_model">Model</label>
+                        <select id="car_model" name="car_model" class="form-control">
+                            <option value="">Any</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Year from</label>
+                        <select name="year" class="form-control">
+                            <option value="">Any</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                            <option value="1995">1995</option>
+                            <option value="1994">1994</option>
+                            <option value="1993">1993</option>
+                            <option value="1992">1992</option>
+                            <option value="1991">1991</option>
+                            <option value="1990">1990</option>
+                            <option value="1989">1989</option>
+                            <option value="1988">1988</option>
+                            <option value="1987">1987</option>
+                            <option value="1986">1986</option>
+                            <option value="1985">1985</option>
+                            <option value="1984">1984</option>
+                            <option value="1983">1983</option>
+                            <option value="1982">1982</option>
+                            <option value="1981">1981</option>
+                            <option value="1980">1980</option>
+                            <option value="1979">1979</option>
+                            <option value="1978">1978</option>
+                            <option value="1977">1977</option>
+                            <option value="1976">1976</option>
+                            <option value="1975">1975</option>
+                            <option value="1974">1974</option>
+                            <option value="1973">1973</option>
+                            <option value="1972">1972</option>
+                            <option value="1971">1971</option>
+                            <option value="1970">1970</option>
+                            <option value="1969">1969</option>
+                            <option value="1968">1968</option>
+                            <option value="1967">1967</option>
+                            <option value="1966">1966</option>
+                            <option value="1965">1965</option>
+                            <option value="1964">1964</option>
+                            <option value="1963">1963</option>
+                            <option value="1962">1962</option>
+                            <option value="1961">1961</option>
+                            <option value="1960">1960</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="condition">Condition</label>
+                        <select name="condition" class="form-control">
+                            <option value="">Any</option>
+                            <option value="1">Used</option>
+                            <option value="2">New</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Fuel Type</label>
+                        <select name="fuel_type" class="form-control">
+                            <option value="">Any</option>
+                            <option value="M_PETROL">Petrol</option>
+                            <option value="M_DIESEL">Diesel</option>
+                            <option value="M_GAS">Gas (LPG)</option>
+                            <option value="M_ELECTRIC">Electric</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Transmission</label>
+                        <select name="transmission" class="form-control">
+                            <option value="">Any</option>
+                            <option value="M_AUTOMATIC">Automatic</option>
+                            <option value="M_MANUAL">Manual</option>
+                            <option value="M_OTHER">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Price (USD)</label>
+                        <br/>
+                        <div class="text-center">
+                            <input style="width:45%;float:left" type="number" class="form-control" value="" id="price_from" name="price_from"/>
+                            - 
+                            <input style="width:45%;float:right" type="number" value="" class="form-control" id="price_to" name="price_to"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Mileage up to</label>
+                        <select name="max_mileage" class="form-control">
+                            <option value="">Any</option>
+                            <option value="5,000">5,000</option>
+                            <option value="10,000">10,000</option>
+                            <option value="20,000">20,000</option>
+                            <option value="30,000">30,000</option>
+                            <option value="40,000">40,000</option>
+                            <option value="50,000">50,000</option>
+                            <option value="60,000">60,000</option>
+                            <option value="70,000">70,000</option>
+                            <option value="80,000">80,000</option>
+                            <option value="90,000">90,000</option>
+                            <option value="100,000">100,000</option>
+                            <option value="125,000">125,000</option>
+                            <option value="150,000">150,000</option>
+                            <option value="200,000">200,000</option>
+                        </select>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div id="extra_fields" class="collapse more-options-collapse">
+                        <div class="form-group">
+                            <label>Exterior Color</label>
+                            <select name="exterior_color" class="form-control">
+                                <option value="">Any</option>
+                                <option value="M_BEIGE">Beige</option>
+                                <option value="M_BLACK">Black</option>
+                                <option value="M_BLUE">Blue</option>
+                                <option value="M_BROWN">Brown</option>
+                                <option value="M_GREEN">Green</option>
+                                <option value="M_GREY">Grey</option>
+                                <option value="M_ORANGE">Orange</option>
+                                <option value="M_PURPLE">Purple</option>
+                                <option value="M_RED">Red</option>
+                                <option value="M_SILVER">Silver</option>
+                                <option value="M_WHITE">White</option>
+                                <option value="M_YELLOW">Yellow</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="search_keyword">Keyword</label>
+                            <input type="text" class="form-control" id="search_keyword" name="search_keyword" value=""/>
+                        </div>
+                        <div class="form-group">
+                            <label>Body Style</label>
+                            <select name="body_style" class="form-control">
+                                <option value="">Any</option>
+                                <option value="M_CONVERTIBLE">Convertible</option>
+                                <option value="M_COUPE">Coupe</option>
+                                <option value="FULL_SIZE_VAN">Full Size Van</option>
+                                <option value="M_HATCH">Hatchback</option>
+                                <option value="M_MINIVAN">Minivan</option>
+                                <option value="M_SEDAN">Sedan</option>
+                                <option value="STATION_W">Station Wagon</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="order_by">Order by</label>
+                            <br/>
+                            <select class="form-control" id="order_by" name="order_by">
+                                <option value="date">Date (Newer First)</option>
+                                <option value="date_old">Date (Older First)</option>
+                                <option value="price">Price (Lower First)</option>
+                                <option value="price_max">Price (Higher First)</option>
+                            </select>
+                        </div>
+                        <script>
+                        var loc_type = "main";
+                        var m_all = "All";
+                        </script>
+                        <div class="form-group pull-left">
+                            <label for="location">Location</label>
+                            <select onChange="sub_loc_select(this.value)" type="text" class="form-control" id="location" name="location">
+                                <option value="">All</option>
+                                <option value="1">Alabama</option>
+                                <option value="2">Alaska</option>
+                                <option value="3">Arizona</option>
+                                <option value="4">Arkansas</option>
+                                <option value="5">California</option>
+                                <option value="6">Colorado</option>
+                                <option value="7">Connecticut</option>
+                                <option value="8">Delaware</option>
+                                <option value="9">District of Columbia</option>
+                                <option value="10">Florida</option>
+                                <option value="11">Georgia</option>
+                                <option value="12">Hawaii</option>
+                                <option value="13">Idaho</option>
+                                <option value="14">Illinois</option>
+                                <option value="15">Indiana</option>
+                                <option value="16">Iowa</option>
+                                <option value="17">Kansas</option>
+                                <option value="18">Kentucky</option>
+                                <option value="19">Louisiana</option>
+                                <option value="20">Maine</option>
+                                <option value="21">Maryland</option>
+                                <option value="22">Massachusetts</option>
+                                <option value="23">Michigan</option>
+                                <option value="24">Minnesota</option>
+                                <option value="25">Mississippi</option>
+                                <option value="26">Missouri</option>
+                                <option value="27">Montana</option>
+                                <option value="28">Nebraska</option>
+                                <option value="29">Nevada</option>
+                                <option value="30">New Hampshire</option>
+                                <option value="31">New Jersey</option>
+                                <option value="32">New Mexico</option>
+                                <option value="33">New York</option>
+                                <option value="34">North Carolina</option>
+                                <option value="35">North Dakota</option>
+                                <option value="36">Ohio</option>
+                                <option value="37">Oklahoma</option>
+                                <option value="38">Oregon</option>
+                                <option value="39">Pennsylvania</option>
+                                <option value="40">Rhode Island</option>
+                                <option value="41">South Carolina</option>
+                                <option value="42">South Dakota</option>
+                                <option value="43">Tennessee</option>
+                                <option value="44">Texas</option>
+                                <option value="45">Utah</option>
+                                <option value="46">Vermont</option>
+                                <option value="47">Virginia</option>
+                                <option value="48">Washington</option>
+                                <option value="49">West Virginia</option>
+                                <option value="50">Wisconsin</option>
+                                <option value="51">Wyoming</option>
+                            </select>
+                            <div id="sub_locations0"></div>
+                            <div id="sub_locations1"></div>
+                            <div id="sub_locations2"></div>
+                            <div id="sub_locations3"></div>
+                            <div id="sub_locations4"></div>
+                        </div>
+                        <div class="col-md-8 pull-left">
+                            <br/>
+                            <input type="checkbox" name="zip_radius" value="1"/>
+                            only vehicles in radius	of: 
+                            <input class="form-control small-field" type="text" name="zip_distance" value=""/>
+                            <select name="zip_type" class="form-control small-field"/>
+                            <option value="1">km</option>
+                            <option value="2">mi</option>
+                            </select>
+                            from ZIP: 
+                            <input class="form-control small-field" type="text" value="" name="zip"/>
+                        </div>
+                        <div class="clearfix"></div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Air Conditioning
+                                " name="features[]">
+                                <span class="radio-button-text">Air Conditioning</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="ABS
+                                " name="features[]">
+                                <span class="radio-button-text">ABS</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Alarm
+                                " name="features[]">
+                                <span class="radio-button-text">Alarm</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="AM/FM Radio
+                                " name="features[]">
+                                <span class="radio-button-text">AM/FM Radio</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Alloy Wheels
+                                " name="features[]">
+                                <span class="radio-button-text">Alloy Wheels</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Auxiliary heating
+                                " name="features[]">
+                                <span class="radio-button-text">Auxiliary heating</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Bucket Seating
+                                " name="features[]">
+                                <span class="radio-button-text">Bucket Seating</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Cassette Radio
+                                " name="features[]">
+                                <span class="radio-button-text">Cassette Radio</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Central locking
+                                " name="features[]">
+                                <span class="radio-button-text">Central locking </span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="CD Player
+                                " name="features[]">
+                                <span class="radio-button-text">CD Player</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Cruise Control
+                                " name="features[]">
+                                <span class="radio-button-text">Cruise Control</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Driver-Side Airbag
+                                " name="features[]">
+                                <span class="radio-button-text">Driver-Side Airbag</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Electric heated seats
+                                " name="features[]">
+                                <span class="radio-button-text">Electric heated seats</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Electric windows
+                                " name="features[]">
+                                <span class="radio-button-text">Electric windows</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="ESP
+                                " name="features[]">
+                                <span class="radio-button-text">ESP</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Extra Cab
+                                " name="features[]">
+                                <span class="radio-button-text">Extra Cab</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Four wheel drive
+                                " name="features[]">
+                                <span class="radio-button-text">Four wheel drive </span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Full Service History
+                                " name="features[]">
+                                <span class="radio-button-text">Full Service History</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Immobilizer
+                                " name="features[]">
+                                <span class="radio-button-text">Immobilizer </span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Leather Interior
+                                " name="features[]">
+                                <span class="radio-button-text">Leather Interior</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Memory Seats
+                                " name="features[]">
+                                <span class="radio-button-text">Memory Seats</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Moon Roof
+                                " name="features[]">
+                                <span class="radio-button-text">Moon Roof</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Navigation system
+                                " name="features[]">
+                                <span class="radio-button-text">Navigation system </span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Passenger-Side Airbag
+                                " name="features[]">
+                                <span class="radio-button-text">Passenger-Side Airbag</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Parking sensors
+                                " name="features[]">
+                                <span class="radio-button-text">Parking sensors</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Power Lock
+                                " name="features[]">
+                                <span class="radio-button-text">Power Lock</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Power Seats
+                                " name="features[]">
+                                <span class="radio-button-text">Power Seats</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Power Steering
+                                " name="features[]">
+                                <span class="radio-button-text">Power Steering</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Power Windows
+                                " name="features[]">
+                                <span class="radio-button-text">Power Windows</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Rear Air Conditioning
+                                " name="features[]">
+                                <span class="radio-button-text">Rear Air Conditioning</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Remote Alarm Control
+                                " name="features[]">
+                                <span class="radio-button-text">Remote Alarm Control</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Rear Window Defroster
+                                " name="features[]">
+                                <span class="radio-button-text">Rear Window Defroster</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Rear Window Wiper
+                                " name="features[]">
+                                <span class="radio-button-text">Rear Window Wiper</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Side-Impact Airbags
+                                " name="features[]">
+                                <span class="radio-button-text">Side-Impact Airbags</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Sun Roof
+                                " name="features[]">
+                                <span class="radio-button-text">Sun Roof </span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Taxi
+                                " name="features[]">
+                                <span class="radio-button-text">Taxi</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Tinted Glass
+                                " name="features[]">
+                                <span class="radio-button-text">Tinted Glass</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Tow Package
+                                " name="features[]">
+                                <span class="radio-button-text">Tow Package</span>
+                            </div>
+                            <div class="col-md-3 vehicle-feature">
+                                <input type="checkbox" value="Xenon headlights" name="features[]">
+                                <span class="radio-button-text">Xenon headlights</span>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="only_pictures" value="1"/>
+                                show only listings with photos
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="margin-top-15">
+                        <script>
+                        var less_text = "Less Options";
+                        var more_text = "More Options";
+                        </script>
+                        <a id="more_button" data-toggle="collapse" data-target=".more-options-collapse" class="underline-link pull-left" style="margin-top:4px" href="javascript:AdvancedSearch()">More Options</a>
+                        <img src="images/arrow_o.png" id="expand_search_img"/>
+                        <button class="btn btn-md btn-primary white-font pull-right no-margin">Search</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="container main-container">
+        <div class="text-center">
+            <site top_banners/>
+        </div>
+        <div class="text-center">
+            <h2>Latest Listings</h2>
+        </div>
+        <hr>
+        <div class="row text-center">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <a href="listing-mercedes-e-s-line-61.html" class="img-link">
+                        <img src="thumbnails/CT54995818AX57479944.webp" alt="2018 Mercedes E280 S Line" class="home-image"/>
+                        <span class="thumbnail-price custom-back-color">$39,000</span>
+                    </a>
+                    <div class="home-caption text-left">
+                        <h5 class="xmin-height-50">
+                            <a href="listing-mercedes-e-s-line-61.html">2018 Mercedes E280 S Line</a>
+                        </h5>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/icon-gas.png" alt="" class="feature-icon"/>
+                                	Petrol
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images/icon-engine.png" alt="" class="feature-icon"/>
+                                	Manual
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin-top-15 home-listing-description">The fifth generation E-Class was unveiled at the 2016 North American International ...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <a href="listing-mercedes-a-60.html" class="img-link">
+                        <img src="thumbnails/AN91107196BC97708135.webp" alt="2018 Mercedes A180 " class="home-image"/>
+                        <span class="thumbnail-price custom-back-color">$33,800</span>
+                    </a>
+                    <div class="home-caption text-left">
+                        <h5 class="xmin-height-50">
+                            <a href="listing-mercedes-a-60.html">2018 Mercedes A180 </a>
+                        </h5>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/icon-gas.png" alt="" class="feature-icon"/>
+                                	Diesel
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images/icon-engine.png" alt="" class="feature-icon"/>
+                                	Automatic
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin-top-15 home-listing-description">The W177 Mercedes-Benz A-Class is the fourth and current generation of the ...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <a href="listing-mercedes-gla-cdi-59.html" class="img-link">
+                        <img src="thumbnails/CO22894441AF94244397.webp" alt="2014 Mercedes GLA 220 CDI" class="home-image"/>
+                        <span class="thumbnail-price custom-back-color">$25,900</span>
+                    </a>
+                    <div class="home-caption text-left">
+                        <h5 class="xmin-height-50">
+                            <a href="listing-mercedes-gla-cdi-59.html">2014 Mercedes GLA 220 CDI</a>
+                        </h5>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/icon-gas.png" alt="" class="feature-icon"/>
+                                	Petrol
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images/icon-engine.png" alt="" class="feature-icon"/>
+                                	Automatic
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin-top-15 home-listing-description">An SUV with a Style All Its Own. The GLA family encompasses ...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <a href="listing-mercedes-c-58.html" class="img-link">
+                        <img src="thumbnails/NA87243678ZV59289632.webp" alt="2011 Mercedes C220 " class="home-image"/>
+                        <span class="thumbnail-price custom-back-color">$19,800</span>
+                    </a>
+                    <div class="home-caption text-left">
+                        <h5 class="xmin-height-50">
+                            <a href="listing-mercedes-c-58.html">2011 Mercedes C220 </a>
+                        </h5>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/icon-gas.png" alt="" class="feature-icon"/>
+                                	Diesel
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images/icon-engine.png" alt="" class="feature-icon"/>
+                                	Manual
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin-top-15 home-listing-description">The new family of the C Class Coupe has an extended wheelbase ...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <a href="listing-mercedes-cls-amg-performance-57.html" class="img-link">
+                        <img src="thumbnails/CE30102679OZ79769938.webp" alt="2017 Mercedes Cls63 AMG Performance" class="home-image"/>
+                        <span class="thumbnail-price custom-back-color">$62,000</span>
+                    </a>
+                    <div class="home-caption text-left">
+                        <h5 class="xmin-height-50">
+                            <a href="listing-mercedes-cls-amg-performance-57.html">2017 Mercedes Cls63 AMG Performance</a>
+                        </h5>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/icon-gas.png" alt="" class="feature-icon"/>
+                                	Petrol
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images/icon-engine.png" alt="" class="feature-icon"/>
+                                	Automatic
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin-top-15 home-listing-description">The Mercedes-Benz CLS-Class is a series of mid-size luxury cars produced by ...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <a href="listing-bmw-m-56.html" class="img-link">
+                        <img src="thumbnails/TE5410955OF26605371.webp" alt="2011 Bmw M3 " class="home-image"/>
+                        <span class="thumbnail-price custom-back-color">$32,000</span>
+                    </a>
+                    <div class="home-caption text-left">
+                        <h5 class="xmin-height-50">
+                            <a href="listing-bmw-m-56.html">2011 Bmw M3 </a>
+                        </h5>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/icon-gas.png" alt="" class="feature-icon"/>
+                                	Petrol
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images/icon-engine.png" alt="" class="feature-icon"/>
+                                	Automatic
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin-top-15 home-listing-description">BMW M3 in top condition, full service history and only one previous ...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <a href="listing-bmw-z-exclusive-55.html" class="img-link">
+                        <img src="thumbnails/RO9134092BA65936348.webp" alt="2012 Bmw Z4 Exclusive" class="home-image"/>
+                        <span class="thumbnail-price custom-back-color">$19,500</span>
+                    </a>
+                    <div class="home-caption text-left">
+                        <h5 class="xmin-height-50">
+                            <a href="listing-bmw-z-exclusive-55.html">2012 Bmw Z4 Exclusive</a>
+                        </h5>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/icon-gas.png" alt="" class="feature-icon"/>
+                                	Petrol
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images/icon-engine.png" alt="" class="feature-icon"/>
+                                	Automatic
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin-top-15 home-listing-description">BMW Z4 in excellent condition and with a full service record. It ...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <a href="listing-bmw-54.html" class="img-link">
+                        <img src="thumbnails/CC3759958BR92520157.webp" alt="2015 Bmw 320 " class="home-image"/>
+                        <span class="thumbnail-price custom-back-color">$21,900</span>
+                    </a>
+                    <div class="home-caption text-left">
+                        <h5 class="xmin-height-50">
+                            <a href="listing-bmw-54.html">2015 Bmw 320 </a>
+                        </h5>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/icon-gas.png" alt="" class="feature-icon"/>
+                                	Petrol
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="images/icon-engine.png" alt="" class="feature-icon"/>
+                                	Automatic
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin-top-15 home-listing-description">This is a test car</div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <section class="text-center text-sm-left">
+            <div class="container">
+                <h2 class="no-top-margin">Featured Dealers</h2>
+                <hr>
+                <div data-items="1" data-xs-items="1" data-sm-items="3" data-md-items="4" data-loop="false" data-margin="30" data-dots="true" data-autoplay="true" class="owl-carousel owl-carousel-mod-2">
+                    <div class="owl-item">
+                        <div class="img-wrap">
+                            <a href="dealer-bmw-miami-6.html">
+                                <img src="thumbnails/VN36526616ZN79061932.webp" alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="img-wrap">
+                            <a href="dealer-mercedes-benz-tampa-7.html">
+                                <img src="thumbnails/OR39386107RT13543874.webp" alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="img-wrap">
+                            <a href="dealer-honda-bikes-8.html">
+                                <img src="thumbnails/FQ97454840EZ54220673.webp" alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="img-wrap">
+                            <a href="dealer-isuzu-trucks-9.html">
+                                <img src="thumbnails/ZV95504770AO69659485.webp" alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br/>
+        <div class="text-center">
+            <site bottom_banners/>
+        </div>
+    </div>
+    <footer class="page-foot text-center bg-gray">
+    <div class="container-fluid">
+      <div class="text-center">
+        <ul class="bottom-nav-menu">
+          <li><a href="https://www.phpscriptdemos.com/cars">Home</a></li>
+          <li><a href="en_Latest+Listings.html">Latest Listings</a></li>
+          <li><a href="en_Dealers.html">Dealers</a></li>
+          <li><a href="en_News.html">News</a></li>
+          <li><a href="en_Reviews.html">Reviews</a></li>
+          <li><a href="en_Email+Alerts.html">Email Alerts</a></li>
+          <li><a href="en_FAQ.html">FAQ</a></li>
+          <li><a href="en_About+us.html">About us</a></li>
+          <li><a href="en_Contact.html">Contact</a></li>
+        </ul>
+        <div class="clearfix"></div><br />
+        <div class="small-footer-link"></div>
+      </div>
+      <div class="copyright-text" style="text-align: center; padding: 0 0 10px 0; font-size: 14px; color: #666;">
+        &copy; <span id="year"></span> Автостолица. Все права защищены.
+      </div>
+      <nav class="">
+
+          <a style="font-size: small; margin: 0 10px;" href="https://www.phpscriptdemos.com/cars">Политика конфиденциальности</a>
+          <a style="font-size: small; margin: 0 10px;" href="en_Latest+Listings.html">Обработка Куки</a>
+      </nav>
+    </div>
+  </footer>
+    <div id="main-login-form">
+        <a href="javascript:HideLogin()">
+            <img class="close-login-icon" alt="close" src="images/closeicon.png"/>
+        </a>
+        <h3 class="margin-top-bottom-10">Login</h3>
+        <hr class="margin-10"/>
+        <script>
+        function ValidateLoginForm(x) {
+            if (x.Email.value == "") {
+                alert("Please enter your username!");
+                x.Email.focus();
+                return false;
+            } else if (x.Password.value == "") {
+                alert("Please enter your password!!");
+                x.Password.focus();
+                return false;
+            }
+            return true;
+        }
+        </script>
+        <form class="no-margin" action="USERS/loginaction.php" method="post" onsubmit="return ValidateLoginForm(this)">
+            <table>
+                <tr>
+                    <td class="padding-top-10">Username: </td>
+                    <td class="padding-top-10">
+                        <input type="text" size="36" class="form-control" name="Email"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="padding-top-10">Password: </td>
+                    <td class="padding-top-10">
+                        <input size="36" class="form-control" type="password" name="Password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <br/>
+                        <a class="lfloat small-font margin-20 underline-link" href="mod-forgotten_password.html">forgotten password?</a>
+                        <input type="submit" class="pull-right btn site-button btn-primary" value="Login" style="position:relative;top:5px"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <br/>
+        <br/>
+    </div>
+  <script>
+    // Вставляем текущий год в элемент с id="year"
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

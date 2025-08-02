@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Latest Listings</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="utf-8">
+
+  <!-- Стили -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css?v=2">
+
+  <!-- Скрипты -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Встроенные стили (custom colors, градиенты и т.д.) -->
+  <style>
+    /* … кастомные стили для цветов, кнопок и фонов … */
+    @media (max-width: 767px) {
+  .media-left {
+    width: 100% !important;
+    display: block;
+  }
+
+  .media-left .img-link,
+  .media-left .img-result {
+    width: 100% !important;
+    height: auto;
+    display: block;
+  }
+
+  /* Опционально: убери float и отступы, если есть */
+  .media-left,
+  .media-body {
+    float: none !important;
+  }
+
+  .media-body {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .container, .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+ .breadcrumbs {
+  padding: 0 15px;
+ }
+
+  
+}
+
+  </style>
+</head>
+
+
+<body>
+  <div class="top-head-line">
+    <div class="container">
+      <div class="col-md-6 text-left"><a class="top-link" href="https://www.phpscriptdemos.com/cars"
+          class="top-right-button-active"> Cars</a><a class="top-link" href="type-motorcycles-2.html"
+          class="top-right-button"> Motorcycles</a><a class="top-link" href="type-trucks-3.html"
+          class="top-right-button"> Trucks</a></div>
+      <div class="col-md-6 text-right"><img src="images/icon-saved.png" alt="" width="12" height="12" /> <a
+          class="top-link" href="mod-saved.html">Saved Listings</a><a class="top-right-link"
+          href="mod-registration.html">Register</a><a class="top-right-link" href="javascript:ShowLogin()">Log In</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="xrow">
+      <div class="logo-container-line">
+        <div class="col-xs-6">
+          <div class="logo"><a class="text-logo" href="https://www.phpscriptdemos.com/cars">Demo Site</a></div>
+        </div>
+        <div class="col-xs-6"><a href="mod-new_listing.html"
+            class="btn btn-primary btn-md white-font pull-right hide-sm">Add New Listing</a><a
+            href="javascript:ShowHide('nav_menu')" class="navbar-toggle collapsed"><img src="images/menu-grid.gif"
+              class="pull-right" alt="expand menu" /></a></div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+      <div id="nav_menu" style="width:100%;" class="navbar-collapse collapse no-left-padding">
+        <ul class="nav navbar-nav main-navigation-menu">
+          <li class="nav-item"><a class="nav-link" href="https://www.phpscriptdemos.com/cars">Home</a> </li>
+          <li class="nav-item"><a class="nav-link" href="en_Latest+Listings.html">Latest Listings</a> </li>
+          <li class="nav-item"><a class="nav-link" href="en_Dealers.html">Dealers</a> </li>
+          <li class="nav-item"><a class="nav-link" href="en_News.html">News</a> </li>
+          <li class="nav-item"><a class="nav-link" href="en_Reviews.html">Reviews</a> </li>
+          <li class="nav-item"><a class="nav-link" href="en_Email+Alerts.html">Email Alerts</a> </li>
+          <li class="nav-item"><a class="nav-link" href="en_FAQ.html">FAQ</a> </li>
+          <li class="nav-item"><a class="nav-link" href="en_Contact.html">Contact</a> </li>
+          <li class="hide-md"><a href="index.php?mod=new_listing">Add New Listing</a></li>
+        </ul>
+        <div class="pull-right no-float-sm">
+          <ul class="nav navbar-nav main-navigation-menu"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container main-container">
+    
+    <div class="text-center">
+      <site top_banners />
+    </div>
+    
+    <div class="row page-wrap">
+      
+      <div class="col-md-9">
+        <nav class="breadcrumbs" style="margin: 10px 0; font-size: 14px;">
+					<a href="https://www.phpscriptdemos.com/cars" style="color: #115e9b;">Home</a> ›
+					<span style="color: #666;">Latest Listings</span>
+				</nav>
+        <div class="results-container">
+          
+
+          <!-- Car 1 -->
+          <div class="media thumbnail s-result-2">
+            
+            <div class="media-left"> <a href="listing-mercedes-e-s-line-61.html" class="img-link"><img
+                  class="img-result" src="thumbnails/CT54995818AX57479944.webp"
+                  alt="2018 Mercedes E280 S Line $39,000" /> <span
+                  class="thumbnail-price custom-back-color">$39,000</span> </a> </div>
+            <div class="media-body width-100">
+              <h4 class="no-top-margin"><a href="listing-mercedes-e-s-line-61.html">2018 Mercedes E280 S Line
+                  $39,000</a></h4>
+              <div class="row">
+                <div class="col-sm-6"><img src="images/icon-gas.png" alt="" class="feature-icon" /> Petrol</div>
+                <div class="col-sm-6"><img src="images/icon-engine.png" alt="" class="feature-icon" /> Manual</div>
+                <div class="col-sm-6"><img src="images/icon-mileage.png" alt="" class="feature-icon" /> 14,000</div>
+                <div style="display: flex; align-items: center;" class="col-sm-6"><img style="width: 20px; height: 20px;margin-right: 10px;" src="https://cdn.iconscout.com/icon/free/png-256/free-mercedes-8-202855.png" alt=""/> Mercedes-Benz</div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="margin-top-15">Пятое поколение E-Class было представлено на Североамериканском международном автосалоне в 2016 году. Следующее поколение E-Class унаследовало элементы дизайна от более крупного S-Class (W222) и меньшего C-Class (W205). В то время как у E-Class W212 б...</div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="media thumbnail s-result-2">
+            <div class="media-left"> <a href="listing-mercedes-a-60.html" class="img-link"><img class="img-result"
+                  src="thumbnails/AN91107196BC97708135.webp" alt="2018 Mercedes A180 $33,800" /> <span
+                  class="thumbnail-price custom-back-color">$33,800</span> </a> </div>
+            <div class="media-body width-100">
+              <h4 class="no-top-margin"><a href="listing-mercedes-a-60.html">2018 Mercedes A180 $33,800</a></h4>
+              <div class="row">
+                <div class="col-sm-6"><img src="images/icon-gas.png" alt="" class="feature-icon" /> Diesel</div>
+                <div class="col-sm-6"><img src="images/icon-engine.png" alt="" class="feature-icon" /> Automatic</div>
+                <div class="col-sm-6"><img src="images/icon-mileage.png" alt="" class="feature-icon" /> 20</div>
+                <div style="display: flex; align-items: center;" class="col-sm-6"><img style="width: 20px; height: 20px;margin-right: 10px;" src="https://cdn.iconscout.com/icon/free/png-256/free-mercedes-8-202855.png" alt=""/> Mercedes-Benz</div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="margin-top-15">Mercedes-Benz A-Class W177 — это четвёртое и текущее поколение в линейке субкомпактных представительских хэтчбеков A-Class. Оно было представлено в 2018 году как преемник Mercedes-Benz A-Class W176, а продажи начались в марте 2018 года. Модель доступна...</div>
+            </div>
+          </div>
+
+          <hr />
+          
+          <div class="media thumbnail s-result-2">
+            <div class="media-left"> <a href="listing-mercedes-gla-cdi-59.html" class="img-link"><img class="img-result"
+                  src="thumbnails/CO22894441AF94244397.webp" alt="2014 Mercedes GLA 220 CDI $25,900" /> <span
+                  class="thumbnail-price custom-back-color">$25,900</span> </a> </div>
+            <div class="media-body width-100">
+              <h4 class="no-top-margin"><a href="listing-mercedes-gla-cdi-59.html">2014 Mercedes GLA 220 CDI $25,900</a>
+              </h4>
+              <div class="row">
+                <div class="col-sm-6"><img src="images/icon-gas.png" alt="" class="feature-icon" /> Petrol</div>
+                <div class="col-sm-6"><img src="images/icon-engine.png" alt="" class="feature-icon" /> Automatic</div>
+                <div class="col-sm-6"><img src="images/icon-mileage.png" alt="" class="feature-icon" /> 34,860</div>
+                <div style="display: flex; align-items: center;" class="col-sm-6"><img style="width: 20px; height: 20px;margin-right: 10px;" src="https://cdn.iconscout.com/icon/free/png-256/free-mercedes-8-202855.png" alt=""/> Mercedes-Benz</div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="margin-top-15">An SUV with a Style All Its Own. The GLA family encompasses both the candid SUV
+                design and Mercedes-Benz's emblematic sophistication. From its chrome crosswinged grille, to its
+                aerodynamic side sills, to its integrated rear spoiler, the GLA pays homage ...</div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="media thumbnail s-result-2">
+            <div class="media-left"> <a href="listing-mercedes-c-58.html" class="img-link"><img class="img-result"
+                  src="thumbnails/NA87243678ZV59289632.webp" alt="2011 Mercedes C220 $19,800" /> <span
+                  class="thumbnail-price custom-back-color">$19,800</span> </a> </div>
+            <div class="media-body width-100">
+              <h4 class="no-top-margin"><a href="listing-mercedes-c-58.html">2011 Mercedes C220 $19,800</a></h4>
+              <div class="row">
+                <div class="col-sm-6"><img src="images/icon-gas.png" alt="" class="feature-icon" /> Diesel</div>
+                <div class="col-sm-6"><img src="images/icon-engine.png" alt="" class="feature-icon" /> Manual</div>
+                <div class="col-sm-6"><img src="images/icon-mileage.png" alt="" class="feature-icon" /> 145,000</div>
+                <div style="display: flex; align-items: center;" class="col-sm-6"><img style="width: 20px; height: 20px;margin-right: 10px;" src="https://cdn.iconscout.com/icon/free/png-256/free-mercedes-8-202855.png" alt=""/> Mercedes-Benz</div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="margin-top-15">The new family of the C Class Coupe has an extended wheelbase and tracks, a
+                stiffer bodyshell and a design inspired by the W221 S-Class with some influences from the C219
+                CLS-Class. The C-Class received a facelift in 2011 for ...</div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="media thumbnail s-result-2">
+            <div class="media-left"> <a href="listing-mercedes-cls-amg-performance-57.html" class="img-link"><img
+                  class="img-result" src="thumbnails/CE30102679OZ79769938.webp"
+                  alt="2017 Mercedes Cls63 AMG Performance $62,000" /> <span
+                  class="thumbnail-price custom-back-color">$62,000</span> </a> </div>
+            <div class="media-body width-100">
+              <h4 class="no-top-margin"><a href="listing-mercedes-cls-amg-performance-57.html">2017 Mercedes Cls63 AMG
+                  Performance $62,000</a></h4>
+              <div class="row">
+                <div class="col-sm-6"><img src="images/icon-gas.png" alt="" class="feature-icon" /> Petrol</div>
+                <div class="col-sm-6"><img src="images/icon-engine.png" alt="" class="feature-icon" /> Automatic</div>
+                <div class="col-sm-6"><img src="images/icon-mileage.png" alt="" class="feature-icon" /> 12,000</div>
+                <div style="display: flex; align-items: center;" class="col-sm-6"><img style="width: 20px; height: 20px;margin-right: 10px;" src="https://cdn.iconscout.com/icon/free/png-256/free-mercedes-8-202855.png" alt=""/> Mercedes-Benz</div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="margin-top-15">The Mercedes-Benz CLS-Class is a series of mid-size luxury cars produced by
+                Mercedes-Benz.
+                The C257 CLS is the third and current generation model, and is only available as a 4-door sedan and in
+                all-wheel drive (4MATIC) configuration. The Shooting Brake ...</div>
+            </div>
+          </div>
+          <hr />
+          <div class="media thumbnail s-result-2">
+            <div class="media-left"> <a href="listing-bmw-m-56.html" class="img-link"><img class="img-result"
+                  src="thumbnails/TE5410955OF26605371.webp" alt="2011 Bmw M3 $32,000" /> <span
+                  class="thumbnail-price custom-back-color">$32,000</span> </a> </div>
+            <div class="media-body width-100">
+              <h4 class="no-top-margin"><a href="listing-bmw-m-56.html">2011 Bmw M3 $32,000</a></h4>
+              <div class="row">
+                <div class="col-sm-6"><img src="images/icon-gas.png" alt="" class="feature-icon" /> Petrol</div>
+                <div class="col-sm-6"><img src="images/icon-engine.png" alt="" class="feature-icon" /> Automatic</div>
+                <div class="col-sm-6"><img src="images/icon-mileage.png" alt="" class="feature-icon" /> 95,000</div>
+                <div style="display: flex; align-items: center;" class="col-sm-6"><img style="width: 20px; height: 20px;margin-right: 10px;" src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt=""/> BMW</div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="margin-top-15">BMW M3 in top condition, full service history and only one previous owner. The
+                BMW M3 is a high-performance version of the 3 Series, developed by BMW's in-house motorsport division,
+                BMW M GmbH. M3 models have been derived from the ...</div>
+            </div>
+          </div>
+          <hr />
+          <div class="media thumbnail s-result-2">
+            <div class="media-left"> <a href="listing-bmw-z-exclusive-55.html" class="img-link"><img class="img-result"
+                  src="thumbnails/RO9134092BA65936348.webp" alt="2012 Bmw Z4 Exclusive $19,500" /> <span
+                  class="thumbnail-price custom-back-color">$19,500</span> </a> </div>
+            <div class="media-body width-100">
+              <h4 class="no-top-margin"><a href="listing-bmw-z-exclusive-55.html">2012 Bmw Z4 Exclusive $19,500</a></h4>
+              <div class="row">
+                <div class="col-sm-6"><img src="images/icon-gas.png" alt="" class="feature-icon" /> Petrol</div>
+                <div class="col-sm-6"><img src="images/icon-engine.png" alt="" class="feature-icon" /> Automatic</div>
+                <div class="col-sm-6"><img src="images/icon-mileage.png" alt="" class="feature-icon" /> 8,200</div>
+                <div style="display: flex; align-items: center;" class="col-sm-6"><img style="width: 20px; height: 20px;margin-right: 10px;" src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt=""/> BMW</div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="margin-top-15">BMW Z4 in excellent condition and with a full service record. It is the first Z
+                Series model to use a retractable hardtop and meant that there were no longer separate roadster and
+                coupé versions of the car. The top ...</div>
+            </div>
+          </div>
+          <hr />
+          <div class="media thumbnail s-result-2">
+            <div class="media-left"> <a href="listing-bmw-54.html" class="img-link"><img class="img-result"
+                  src="thumbnails/CC3759958BR92520157.webp" alt="2015 Bmw 320 $21,900" /> <span
+                  class="thumbnail-price custom-back-color">$21,900</span> </a> </div>
+            <div class="media-body width-100">
+              <h4 class="no-top-margin"><a href="listing-bmw-54.html">2015 Bmw 320 $21,900</a></h4>
+              <div class="row">
+                <div class="col-sm-6"><img src="images/icon-gas.png" alt="" class="feature-icon" /> Petrol</div>
+                <div class="col-sm-6"><img src="images/icon-engine.png" alt="" class="feature-icon" /> Automatic</div>
+                <div class="col-sm-6"><img src="images/icon-mileage.png" alt="" class="feature-icon" /> 42,000</div>
+                <div style="display: flex; align-items: center;" class="col-sm-6"><img style="width: 20px; height: 20px;margin-right: 10px;" src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt=""/> BMW</div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="margin-top-15">This is a test car</div>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="clearfix"></div>
+        <script>var min_price = 19500;
+          var max_price = 62000;</script>
+      </div>
+      <div class="col-md-3" style="padding-left:0px">
+        <div class="gray-wrap">
+          <form action="https://www.phpscriptdemos.com/cars/index.php" method="post"><input type="hidden" name="type"
+              value="1"><input type="hidden" name="refine" value="1" /><input type="hidden" name="page"
+              value="en_Latest Listings" />
+            <h3 class="aside-header">Refine Search</h3>
+            <hr class="margin-top-bottom-10" />
+            <link rel="stylesheet" href="css/jquery-ui.css">
+            <script src="js/jquery-ui.js"></script>
+            <script> $(function () { $("#slider-range").slider({ range: true, min: min_price, max: max_price, values: [min_price, max_price], slide: function (event, ui) { $("#amount").val("$" + number_format(ui.values[0], 0, '', ',') + " - $" + number_format(ui.values[1], 0, '', ',')); } }); }); </script>
+            <div id="price_range_wrap">
+              <p> Price range: <input type="text" value="$19,500 - $62,000 " name="amount" id="amount" readonly
+                  class="custom-color form-control"
+                  style="margin-top:5px;margin-bottom:5px;border:0 !important; box-shadow:none;"></p>
+              <div style="padding-left:10px;padding-right:10px;">
+                <div id="slider-range"></div>
+              </div><br />
+            </div>
+            <script>if (min_price == max_price) document.getElementById("price_range_wrap").style.display = "none";</script>
+            <div class="clearfix"></div>
+            <div class="row"><label class="control-label col-md-5" for="fuel_type">Fuel Type</label>
+              <div class="control-field col-md-7 no-right-padding"><select name="fuel_type" class="form-control">
+                  <option value="">Any</option>
+                  <option value="M_PETROL">Petrol</option>
+                  <option value="M_DIESEL">Diesel</option>
+                  <option value="M_GAS">Gas (LPG)</option>
+                  <option value="M_ELECTRIC">Electric</option>
+                </select> </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row margin-top-10"><label class="control-label col-md-5" for="transmission">Transmission</label>
+              <div class="control-field col-md-7 no-right-padding"> <select name="transmission" class="form-control">
+                  <option value="">Any</option>
+                  <option value="M_AUTOMATIC">Automatic</option>
+                  <option value="M_MANUAL">Manual</option>
+                  <option value="M_OTHER">Other</option>
+                </select></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row margin-top-10"><label class="control-label col-md-5" for="exterior_color">Exterior
+                Color</label>
+              <div class="control-field col-md-7 no-right-padding"> <select name="exterior_color" class="form-control">
+                  <option value="">Any</option>
+                  <option value="M_BEIGE">Beige</option>
+                  <option value="M_BLACK">Black</option>
+                  <option value="M_BLUE">Blue</option>
+                  <option value="M_BROWN">Brown</option>
+                  <option value="M_GREEN">Green</option>
+                  <option value="M_GREY">Grey</option>
+                  <option value="M_ORANGE">Orange</option>
+                  <option value="M_PURPLE">Purple</option>
+                  <option value="M_RED">Red</option>
+                  <option value="M_SILVER">Silver</option>
+                  <option value="M_WHITE">White</option>
+                  <option value="M_YELLOW">Yellow</option>
+                </select></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row margin-top-10"><label class="control-label col-md-5" for="max_mileage">Mileage up to</label>
+              <div class="control-field col-md-7 no-right-padding"><select name="max_mileage" class="form-control">
+                  <option value="">Any</option>
+                  <option value="5,000">5,000</option>
+                  <option value="10,000">10,000</option>
+                  <option value="20,000">20,000</option>
+                  <option value="30,000">30,000</option>
+                  <option value="40,000">40,000</option>
+                  <option value="50,000">50,000</option>
+                  <option value="60,000">60,000</option>
+                  <option value="70,000">70,000</option>
+                  <option value="80,000">80,000</option>
+                  <option value="90,000">90,000</option>
+                  <option value="100,000">100,000</option>
+                  <option value="125,000">125,000</option>
+                  <option value="150,000">150,000</option>
+                  <option value="200,000">200,000</option>
+                </select></div>
+            </div>
+            <div class="row margin-top-10"><label class="control-label col-md-5" for="body_style">Body Style</label>
+              <div class="control-field col-md-7 no-right-padding"><select name="body_style" class="form-control">
+                  <option value="">Any</option>
+                  <option value="M_CONVERTIBLE">Convertible</option>
+                  <option value="M_COUPE">Coupe</option>
+                  <option value="FULL_SIZE_VAN">Full Size Van</option>
+                  <option value="M_HATCH">Hatchback</option>
+                  <option value="M_MINIVAN">Minivan</option>
+                  <option value="M_SEDAN">Sedan</option>
+                  <option value="STATION_W">Station Wagon</option>
+                </select></div>
+            </div>
+            <div class="row margin-top-10"><label class="control-label col-md-5" for="body_style">Order by</label>
+              <div class="control-field col-md-7 no-right-padding"><select class="form-control" id="order_by"
+                  name="order_by">
+                  <option value="date">Date (Newer First)</option>
+                  <option value="date_old">Date (Older First)</option>
+                  <option value="price">Price (Lower First)</option>
+                  <option value="price_max">Price (Higher First)</option>
+                </select></div>
+            </div>
+            <div class="control-label margin-top-10">
+              <div class="margin-top-bottom-5"><i>Seller Type</i></div><input type="radio" name="seller_type" checked
+                value="" />All &nbsp;<input type="radio" name="seller_type" value="1" />Private Seller &nbsp;<input
+                type="radio" name="seller_type" value="2" />Dealer<br /><br />
+            </div><br /><input type="submit" class="pull-right btn btn-primary btn-md" value="Submit" />
+            <div class="clearfix"></div><br />
+          </form>
+        </div><br />
+      </div>
+    </div>
+    <div class="text-center">
+      <site bottom_banners />
+    </div>
+  </div>
+  <footer class="page-foot text-center bg-gray">
+    <div class="container-fluid">
+      <div class="text-center">
+        <ul class="bottom-nav-menu">
+          <li><a href="https://www.phpscriptdemos.com/cars">Home</a></li>
+          <li><a href="en_Latest+Listings.html">Latest Listings</a></li>
+          <li><a href="en_Dealers.html">Dealers</a></li>
+          <li><a href="en_News.html">News</a></li>
+          <li><a href="en_Reviews.html">Reviews</a></li>
+          <li><a href="en_Email+Alerts.html">Email Alerts</a></li>
+          <li><a href="en_FAQ.html">FAQ</a></li>
+          <li><a href="en_About+us.html">About us</a></li>
+          <li><a href="en_Contact.html">Contact</a></li>
+        </ul>
+        <div class="clearfix"></div><br />
+        <div class="small-footer-link"></div>
+      </div>
+      <div class="copyright-text" style="text-align: center; padding: 0 0 10px 0; font-size: 14px; color: #666;">
+        &copy; <span id="year"></span> Автостолица. Все права защищены.
+      </div>
+      <nav class="">
+
+          <a style="font-size: small; margin: 0 10px;" href="https://www.phpscriptdemos.com/cars">Политика конфиденциальности</a>
+          <a style="font-size: small; margin: 0 10px;" href="en_Latest+Listings.html">Обработка Куки</a>
+      </nav>
+    </div>
+  </footer>
+
+
+  <div id="main-login-form"><a href="javascript:HideLogin()"><img class="close-login-icon" alt="close"
+        src="images/closeicon.png" /></a>
+    <h3 class="margin-top-bottom-10">Login</h3>
+    <hr class="margin-10" />
+    <script>function ValidateLoginForm(x) { if (x.Email.value == "") { alert("Please enter your username!"); x.Email.focus(); return false; } else if (x.Password.value == "") { alert("Please enter your password!!"); x.Password.focus(); return false; } return true; }</script>
+    <form class="no-margin" action="https://www.phpscriptdemos.com/cars/USERS/loginaction.php" method="post"
+      onsubmit="return ValidateLoginForm(this)">
+      <table>
+        <tr>
+          <td class="padding-top-10">Username: </td>
+          <td class="padding-top-10"> <input type="text" size="36" class="form-control" name="Email" /></td>
+        </tr>
+        <tr>
+          <td class="padding-top-10">Password: </td>
+          <td class="padding-top-10"> <input size="36" class="form-control" type="password" name="Password" /></td>
+        </tr>
+        <tr>
+          <td colspan="2"> <br /><a class="lfloat small-font margin-20 underline-link"
+              href="mod-forgotten_password.html">forgotten password?</a> <input type="submit"
+              class="pull-right btn site-button btn-primary" value="Login" style="position:relative;top:5px" /></td>
+        </tr>
+      </table>
+    </form><br /><br />
+  </div>
+  <script>
+    // Вставляем текущий год в элемент с id="year"
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
